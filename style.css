@@ -53,6 +53,11 @@ footer p {
 	width: 50%;
 }
 
+
+/************************/
+/* 	   BANNIERES        */
+/************************/
+
 .jumbotron{
 	color : #fff;
 	background-size: auto 100%;
@@ -64,18 +69,17 @@ footer p {
 	color: #fff;
 }
 
-/*.jumbotron h5{
-	color: #fff;
-}*/
-
-.jumbotronbis{
-	color : #fff;
+.banner{
 	background-size: auto 100%;
-	background-image:url("jumbotronbis.jpg");
-	background-repeat: no-repeat;
+	background-image:url("img/jumbotronbis.jpg");
 	background-size: cover;
+	border-radius: 4px;
 }
 
-.ml-auto{
-	height: 24px
+.banner h1{
+	color: #fff;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
